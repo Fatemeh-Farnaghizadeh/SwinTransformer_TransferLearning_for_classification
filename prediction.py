@@ -14,7 +14,7 @@ if __name__ == '__main__':
     model = torchvision.models.swin_t().to(utils.DEVICE)
     model_weights = torchvision.models.Swin_T_Weights.DEFAULT
 
-    model.heads = nn.Linear(in_features=model.head.in_features, out_features=utils.NUM_CLASSES).to(utils.DEVICE)
+    model.head = nn.Linear(in_features=model.head.in_features, out_features=utils.NUM_CLASSES).to(utils.DEVICE)
 
     # Load your custom weights from a .pth file
     saved_model_path = os.path.join(utils.SAVE_MODEL_PATH, 'Swin_T_Model.pth')
