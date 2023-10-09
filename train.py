@@ -46,7 +46,7 @@ if __name__ == '__main__':
     for epoch in range(utils.EPOCHS):
         
         if epoch % 2 == 0:
-            utils.save_model(model=model, model_name='ViT_Model.pth')
+            utils.save_model(model=model, model_name='Swin_T_Model.pth')
 
         train_loss = 0
         test_loss = 0

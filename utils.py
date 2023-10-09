@@ -14,7 +14,6 @@ PIN_MEMMORY = True
 SHUFFLE = True
 
 # Model
-EMBED_DIM = 768
 NUM_CLASSES = 3
 
 
