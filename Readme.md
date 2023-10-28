@@ -22,7 +22,7 @@ git clone https://github.com/Fatemeh-Farnaghizadeh/SwinTransformer_TransferLearn
 cd SwinTransformer_TransferLearning_for_classification
 ```
 ### Download Dataset
-You will need to download the flower dataset to train and test your model. You can obtain the dataset from this [link]().
+You will need to download the flower dataset to train and test your model. You can obtain the dataset from this [link](https://drive.google.com/file/d/17HpTij-vL6Obg_Jcz7G74Qzboj4p5UUq/view?usp=sharing).
 
 ### Set Up Virtual Environment
 To ensure that you have all the necessary dependencies and avoid conflicts with your system-wide Python packages, it's recommended to create a Python virtual environment. Follow these steps:
